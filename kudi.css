@@ -1,0 +1,435 @@
+.head{
+    display: flex;
+    background-color:#1f39e0;
+    
+}
+.first ul li{
+    display: inline-flex;
+    list-style-type: none;
+    float: left;
+    width: 10px;
+    margin: 20px;
+    padding: 5px;
+    color:white
+}
+.home{
+    margin-left: 30px;
+}
+.middle ul li{
+    display: inline-flex;
+    list-style-type: none;
+    float: center;
+    margin: 20px;
+    padding: 5px;
+    color: white;
+}
+.last{
+    display: inline-flex;
+    list-style-type: none;
+    float: right;
+    margin: 8px 20px;
+    
+}
+#trans{
+    border: solid 1px;
+    border-radius:5px;
+    box-sizing: border-box;
+    color: white;
+    background-color:#1f39e0;
+    border-color: 90px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 30px;
+    width: 60px;
+}
+#gold{
+    background-color: gold;
+    border: solid 1px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 30px;
+}
+.head a{
+    text-decoration: none;
+    color: white;
+}
+.head a:hover{
+    color: red;
+}
+.mainwork{
+    background-image: url("./kudiimages/bgimage.png");
+   background-repeat: no-repeat;
+   background-size: 1400px ;
+}
+.dotted{
+    color: white;
+    padding: 30px;
+}
+
+#pep{
+    display: flex;
+    color: white;
+    padding: 15px 30px;
+}
+.basket1{
+    display: flex;
+    color: white;
+    padding: 5px 30px;
+}
+.journey{
+    padding: 5px 30px;
+    color: white;
+}
+.both-in{
+    display: flex;
+}
+#glasses{
+    width: 350px;
+    height: 350px;
+    padding:  30px 30px 50px 400px ;
+
+
+}
+.downdot{
+    text-align: right;
+    color: white;
+    padding:30px 150px 30px 30px ;
+}
+.fullgrid{
+    background-image: linear-gradient( rgba(2, 2, 44, 0.979),rgba(4, 4, 58, 0.904));
+
+}
+.fullygrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+.choose-package{
+    color: white;
+    text-align: center;
+    padding:30px;
+}
+.box-grid{
+   width: 180px;
+   height: 250px;
+    border: 1px solid none;
+    border-radius: 3px; 
+    text-align: center;
+    background-color: white;
+    margin: 30px 40px;
+    
+}
+#Choose{
+  background-color: blue;
+   width: 150px;
+   height: 30px;
+   border-radius: 7px;
+   margin: 15px 15px;
+
+}
+#Choose a{
+    text-decoration: none; 
+}
+.ashgrey{
+    background-color:#f8f8f8 ;
+}
+.ashgrey h1{
+    text-align: center;
+}
+#Group_1507{
+position: relative;
+right: 90px;
+bottom: 15px;
+}
+#Group_1509{
+    position: relative;
+    right: 90px;
+    bottom: 15px;
+}
+#tvcircle{
+    display: flex;
+    justify-content: space-around;
+}
+.tvimages{
+    text-align:center ;
+
+}
+.midpics{
+    text-align: center;
+}
+
+/* .hcode{
+    display: flex;
+    justify-content: space-around; */
+    
+/* } */
+.hardcode{
+    border: 1px solid blue;
+    padding: 20px;
+    
+}
+.hardcode h4{
+    text-align: center;
+}
+/* .approach{
+    background-color: #f8f8f8;
+} */
+.our-program{
+    text-align: center;
+}
+.cross-over{
+    display: flex;
+    justify-content: space-between;
+
+}
+#cross-image{
+    width: 200px;
+    height: 300px;
+    margin: 40px 40px 40px 80px;
+}
+.us{
+    margin-right: 400px;
+}
+.kudicom{
+    width: 600px;
+}
+.hrr{
+    border: 1px solid blue;
+    height: 120px;
+   border-color: blue;
+}
+.members{
+    display: flex;
+    margin-right: 70px;
+}
+.csp{
+    display: flex;
+    margin-left: 220px;
+}
+.share-ads{
+    display: flex;
+    margin-right: 70px;
+}
+.Get-paid{
+    display: flex;
+    margin-left: 70px;
+}
+.divide1{
+    display: flex;
+
+
+}
+.divide2{
+    display: flex;
+}
+.investors{
+    background-color: blue;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+}
+.aboutkudi{
+    background-image:linear-gradient(180deg,#021E53,#022759 ,#032C5D ,#1E65FF);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 30px;
+}
+.tasks{
+    color: rgba(252, 241, 241, 0.733);
+}
+
+
+.address{
+    display: block;
+}
+.address h4{
+    margin: 20px 30px;
+}
+.location{
+    display: flex;
+}
+.location .fade{
+ color: rgba(252, 241, 241, 0.733);
+}
+
+.social-media{
+   background-color :#1f39e0; 
+    display: flex;
+    justify-content: space-between;
+
+}
+.hra{
+    width: 200px;
+    color: rgba(252, 241, 241, 0.616);
+    margin-bottom:20px ;
+    margin-left: 20px;
+}
+.email{
+    display: flex;
+    margin: 20px 10px;
+}
+.email .fade{
+    color:rgba(252, 241, 241, 0.733);
+}
+.aboutus h4{
+    margin: 20px 30px;
+}
+.aboutus ul li{
+    list-style-type: square;
+    color: gold;
+}
+.aboutus ul li span{
+    color: rgb(252, 241, 241,0.733);
+}
+.resources h4{
+    margin: 20px 30px;
+}
+.resources ul li{
+    list-style-type: square;
+    color: gold;
+}
+.resources ul li span{
+    color: rgba(252, 241, 241, 0.733);
+}
+.follow-us{
+    color: white;
+    padding: 20px;
+}
+#playstore{
+    border-radius: 8px;
+    width: 140px;
+    height: 50px;
+    margin: 20px;
+}
+.playstore1{
+    display: flex;
+
+}
+#Icon_awesome-apple{
+    padding-bottom: 15px;
+
+}
+#Icon_awesome-google-play{
+    padding-bottom: 15px;
+    
+}
+.same{
+    padding-bottom :20px; 
+}
+.copyright{
+    text-align: center;
+    color: blue;
+}
+
+
+@media ( max-width: 425px){
+    .head{
+        display: inline-block;
+        background-color:#1f39e0;
+    
+        
+    }
+    .first ul li{
+        display: inline-flex;
+        list-style-type: none;
+        float: left;
+        width: 10px;
+        margin: 20px;
+        padding: 5px;
+        color:white
+    }
+    .home{
+        margin-left: 30px;
+    }
+    .middle ul li{
+        display: inline-flex;
+        list-style-type: none;
+        float: center;
+        margin: 20px;
+        padding: 5px;
+        color: white;
+    }
+    .last{
+        display: inline-flex;
+        list-style-type: none;
+        float: right;
+        margin: 8px 20px;
+        
+    }
+    #trans{
+        border: solid 1px;
+        border-radius:5px;
+        box-sizing: border-box;
+        color: white;
+        background-color:#1f39e0;
+        border-color: 90px;
+        margin-left: 50px;
+        margin-top: 20px;
+        height: 30px;
+        width: 60px;
+    }
+    #gold{
+        background-color: gold;
+        border: solid 1px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-left: 30px;
+        margin-top: 20px;
+        height: 30px;
+    }
+    .head a{
+        text-decoration: none;
+        color: white;
+    }
+    .head a:hover{
+        color: red;
+    }
+    .mainwork{
+        background-image: url("./kudiimages/bgimage.png");
+       background-repeat: no-repeat;
+       background-size: 1400px ;
+       font-size: 15px;
+    }
+    .dotted{
+        color: white;
+        padding: 15px;
+    }
+    
+    #pep{
+        display: flex;
+        color: white;
+        padding: 15px 30px;
+    }
+    .basket1{
+        display: flex;
+        color: white;
+        padding: 5px 30px;
+    }
+    .journey{
+        padding: 5px 30px;
+        color: white;
+    }
+    .both-in{
+        display: inline-block;
+    }
+    #glasses{
+        width: 200px;
+        height: 200px;
+        padding:  30px 50px 50px 20px ;
+    
+    
+    }
+    .downdot{
+        color: white;
+    
+    }
+
+    #tvcircle{
+    display: block;
+    
+     }
+}
